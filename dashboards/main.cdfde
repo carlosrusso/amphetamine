@@ -1,0 +1,833 @@
+{
+ "layout": {
+  "title": "main",
+  "rows": [
+   {
+    "id": "0e447057-b5f1-e6a3-cb7d-05abcb88d81c",
+    "type": "LayoutResourceCode",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "patchCodeEditorJS",
+      "type": "Id"
+     },
+     {
+      "name": "resourceType",
+      "value": "Javascript",
+      "type": "Label"
+     },
+     {
+      "name": "resourceCode",
+      "value": "",
+      "type": "Resource"
+     }
+    ]
+   },
+   {
+    "id": "11c6c70d-0be1-1ec1-3171-1b642aad2e30",
+    "type": "LayoutResourceCode",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "mainCSS",
+      "type": "Id"
+     },
+     {
+      "name": "resourceType",
+      "value": "Css",
+      "type": "Label"
+     },
+     {
+      "name": "resourceCode",
+      "value": "#fileBrowserObj input{\n    width: 100%;    \n} ",
+      "type": "Resource"
+     }
+    ]
+   },
+   {
+    "id": "3fe19b80-7d4f-8f4a-f3fa-efad0f93ee87",
+    "type": "BootstrapPanel",
+    "typeDesc": "Bootstrap Panel",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapPanelStyle",
+      "value": "panel-default",
+      "type": "bootstrapPanelStyleCustom"
+     }
+    ]
+   },
+   {
+    "id": "a33dfd73-1b16-a401-72ee-bbe8aaf35f77",
+    "type": "BootstrapPanelHeader",
+    "typeDesc": "Panel Header",
+    "parent": "3fe19b80-7d4f-8f4a-f3fa-efad0f93ee87",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "8798bc65-8b13-2bba-4e41-b9d2bc630a52",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "a33dfd73-1b16-a401-72ee-bbe8aaf35f77",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "3c07b730-c9ec-297f-2a6c-127eff925979",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "8798bc65-8b13-2bba-4e41-b9d2bc630a52",
+    "properties": [
+     {
+      "name": "name",
+      "value": "fileBrowserObj",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "3a95ab6e-8703-2cef-7534-e13bd5082ed4",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "8798bc65-8b13-2bba-4e41-b9d2bc630a52",
+    "properties": [
+     {
+      "name": "name",
+      "value": "createBtnObj",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "1e05095b-d0da-9b35-bc50-b5969c579098",
+    "type": "BootstrapPanelBody",
+    "typeDesc": "Panel Body",
+    "parent": "3fe19b80-7d4f-8f4a-f3fa-efad0f93ee87",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "3d8ab1e2-25ca-8923-b5cc-9c883a38c2dd",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "1e05095b-d0da-9b35-bc50-b5969c579098",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "a9057df1-be71-a2ee-f347-0c543ba97d79",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "3d8ab1e2-25ca-8923-b5cc-9c883a38c2dd",
+    "properties": [
+     {
+      "name": "name",
+      "value": "textEditorObj",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "500",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "887d7bb5-38a3-cd41-dc6b-6ac5551a929f",
+    "type": "BootstrapPanelFooter",
+    "typeDesc": "Panel Footer",
+    "parent": "3fe19b80-7d4f-8f4a-f3fa-efad0f93ee87",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   }
+  ]
+ },
+ "components": {
+  "rows": [
+   {
+    "id": "OTHERCOMPONENTS",
+    "name": "Others",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Others",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "c3d98a13-ccce-e28d-2b87-2e525735caff",
+    "type": "ComponentsTextEditorComponent",
+    "typeDesc": "Text Editor",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "textEditorC",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "${p:fileParam}",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:fileParam}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "htmlObject",
+      "value": "textEditorObj",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "function f(){\n\n    this.save = function(){\n        Dashboards.log('Yikes!');\n        //Save the original file\n        this.getEditorWindow().save();\n        \n        // Compile the file\n        var editor = this.getEditorWindow().window.editor;\n        var contents = editor.getContents();\n        \n        var compile = function(contents, filetype, filename){\n            var url = '/pentaho/plugin/amphetamine/api/compile';\n            var params = {\n                paramlang: filetype,\n                paramcode: contents\n            };\n            var success = function(json){\n                //var json = JSON.parse(jsonString);\n                var jsonString = JSON.stringify(json);\n                console.log('compiled into ' + jsonString);\n                editor.saveFile(filename, json, function(result){\n                  console.log('saved ' + jsonString);\n                });\n            }\n            $.ajax({\n                url: url,\n                async: true,\n                data: params,\n                success: success\n            });\n        }; //compile\n        \n        // Detect if the file is compilable and compile it\n          var reversed_filename = this.getEditorWindow().window.params.path.split('.').reverse();\n          var extension = reversed_filename[0];\n          var base_filename = reversed_filename.slice(1).reverse();\n          var filename;\n          switch (extension){\n          case 'styl':\n          case 'less':\n          case 'sass':\n          case 'scss':\n            filename = base_filename + '.css';\n            console.log('compiling ' + filename);\n            compile(contents, extension, filename);\n            break;\n          case 'coffee':\n            filename = base_filename + '.js';\n            console.log('compiling ' + filename);\n            compile(contents, extension, filename);\n            break;\n          }\n        \n    }; //this.save\n    \n} ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "function(){\nDashboards.log('PostExec!');\n\nvar me = this;\nthis.externalEditor.load(function(){\n    \n    \n    _.each(['coffee', 'stylus', 'less', 'sass', 'scss'], function(mode){\n        var scriptTag = '<script language=\"javascript\" type=\"text/javascript\" src=\"../resources/get?resource=/resources/ace/src/mode-' + mode +'.js<\\/script>';\n        Dashboards.log('Adding script: ' + scriptTag);\n        me.externalEditor.contents().find(\"body\").append($(scriptTag));\n    });\n    \n    \n    me.getEditorWindow().window.editor.modeMap =\n\t{ //highlight modes\n\t\t'css' : 'css',\n\t\t'javascript' : 'javascript',\n\t\t'js' : 'javascript',\n\t\t'xml' : 'xml',\n\t\t'cda' : 'xml',\n\t\t'cdv' : 'javascript',\n\t\t'html': 'html',\n\t\t'sql' : 'text',\n\t\t'mdx' : 'text',\n        'styl': 'stylus',\n        'less': 'less',\n        'sass': 'sass',\n        'coffee': 'coffee'\n\t}\n    \n});\n\n} ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postFetch",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "function f(path){\n\n    var createFile = function (path){\n        $.ajax({\n            url: Dashboards.getWebAppPath() + '/plugin/pentaho-cdf-dd/api/editor/file/write', \n            type:'PUT', \n            data:{\n                path: path\n            }, \n            success:function(data){\n                Dashboards.log('createFile :' + data);\n            }\n        });        \n    };\n    \n    var fileExists = function (path, callback){\n        $.ajax({\n            url: Dashboards.getWebAppPath() + '/plugin/pentaho-cdf-dd/api/editor/file/canEdit', \n            type:'GET', \n            data:{\n                path: path\n            }, \n            success:function(data){\n                Dashboards.log('canEdit :' + data);\n                if (data == 'true'){\n                    callback(path);\n                }\n            }\n        });\n    };\n    \n    fileExists(value, createFile);\n} ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     }
+    ]
+   },
+   {
+    "id": "015ec06b-95ec-7812-a69f-5cb99f8ef0a8",
+    "type": "ComponentsbuttonComponent",
+    "typeDesc": "Button Component",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "createBtnC",
+      "type": "Id"
+     },
+     {
+      "name": "label",
+      "value": "Create",
+      "type": "String"
+     },
+     {
+      "name": "listeners",
+      "value": "[]",
+      "type": "Listeners"
+     },
+     {
+      "name": "successCallback",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "expression",
+      "value": "function f(){\n    \n    var value = Dashboards.getParameterValue('${p:fileParam}');\n\n    var createFile = function (path){\n        $.ajax({\n            url: Dashboards.getWebAppPath() + '/plugin/pentaho-cdf-dd/api/editor/file/write', \n            type:'PUT', \n            data:{\n                path: path\n            }, \n            success:function(data){\n                Dashboards.log('createFile :' + data);\n            }\n        });        \n    };\n    \n    var fileExists = function (path, callback){\n        $.ajax({\n            url: Dashboards.getWebAppPath() + '/plugin/pentaho-cdf-dd/api/editor/file/canEdit', \n            type:'GET', \n            data:{\n                path: path\n            }, \n            success:function(data){\n                Dashboards.log('canEdit :' + data);\n                if (data != 'true'){\n                    callback(path);\n                    Dashboards.fireChange('${p:fileParam}', path);\n                }\n            }\n        });\n    };\n    \n    fileExists(value, createFile);\n    //createFile(value);\n} ",
+      "type": "JavaScript"
+     },
+     {
+      "name": "actionParameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "failureCallback",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "Datasource",
+      "value": "",
+      "type": "Datasource"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "buttonStyle",
+      "value": "themeroller",
+      "type": "TableStyle"
+     },
+     {
+      "name": "htmlObject",
+      "value": "${p:createBtnObj}",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     }
+    ]
+   },
+   {
+    "id": "GENERIC",
+    "name": "Generic",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Generic",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "d0e8b44b-57aa-8faf-12c0-82d0460a7443",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "value": "fileParam",
+      "type": "Id"
+     },
+     {
+      "name": "propertyValue",
+      "value": "/public/cde/components/NewMapComponent4s/mapAddins.js",
+      "type": "String"
+     },
+     {
+      "name": "parameterViewRole",
+      "value": "unused",
+      "type": "parameterViewRoleCustom"
+     },
+     {
+      "name": "bookmarkable",
+      "value": "false",
+      "type": "Boolean"
+     }
+    ]
+   },
+   {
+    "id": "SELECTORS",
+    "name": "Selects",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Selects",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "04556760-cc95-f447-78f1-ee6db405db5f",
+    "type": "ComponentstextInput",
+    "typeDesc": "Text input Component",
+    "parent": "SELECTORS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "fileBrowserC",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "${p:fileParam}",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "[]",
+      "type": "Listeners"
+     },
+     {
+      "name": "maxLength",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "size",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "htmlObject",
+      "value": "${p:fileBrowserObj}",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     }
+    ]
+   }
+  ]
+ },
+ "datasources": {
+  "rows": [
+   {
+    "id": "SQL",
+    "name": "SQL Queries",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "SQL Queries",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "0a56c773-c21a-33cb-c9aa-716d1c31731a",
+    "type": "Componentssql_sqlJndi",
+    "typeDesc": "sql over sqlJndi",
+    "meta": "CDA",
+    "meta_conntype": "sql.jndi",
+    "meta_datype": "sql",
+    "parent": "SQL",
+    "properties": [
+     {
+      "name": "name",
+      "value": "dummy",
+      "type": "Id"
+     },
+     {
+      "name": "access",
+      "value": "public",
+      "type": "Access"
+     },
+     {
+      "name": "jndi",
+      "value": "",
+      "type": "Jndi"
+     },
+     {
+      "name": "query",
+      "value": "",
+      "type": "SqlQuery"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "CdaParameters"
+     },
+     {
+      "name": "output",
+      "value": "[]",
+      "type": "IndexArray"
+     },
+     {
+      "name": "outputMode",
+      "value": "include",
+      "type": "OutputMode"
+     },
+     {
+      "name": "cdacolumns",
+      "value": "[]",
+      "type": "CdaColumnsArray"
+     },
+     {
+      "name": "cdacalculatedcolumns",
+      "value": "[]",
+      "type": "CdaCalculatedColumnsArray"
+     },
+     {
+      "name": "cacheDuration",
+      "value": 3600,
+      "type": "Integer"
+     },
+     {
+      "name": "cache",
+      "value": "true",
+      "type": "Boolean"
+     }
+    ]
+   }
+  ]
+ },
+ "filename": "/system/amphetamine/dashboards/main.cdfde"
+}
