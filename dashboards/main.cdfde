@@ -429,6 +429,140 @@
       "type": "String"
      }
     ]
+   },
+   {
+    "id": "00b9c994-6d47-511b-56b3-9570c79c0fc6",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "887d7bb5-38a3-cd41-dc6b-6ac5551a929f",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "61268de3-d319-1308-a8e4-3fb2af8993ab",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "00b9c994-6d47-511b-56b3-9570c79c0fc6",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "60f2df83-20aa-c4bc-b857-30d1a99730d3",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "61268de3-d319-1308-a8e4-3fb2af8993ab",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "Using the command line, go to \"pentaho-solutions/system/amphetamine/node-preprocessor\" and launch \"node server.js\" ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
    }
   ]
  },
@@ -636,7 +770,7 @@
      },
      {
       "name": "propertyValue",
-      "value": "/public/cde/components/NewMapComponent4s/mapAddins.js",
+      "value": "/public/plugin-samples/pentaho-cdf/40-support/scrollable/scrollable-navig.css",
       "type": "String"
      },
      {
